@@ -7,6 +7,28 @@ Welcome to the Acme Corp Backend API. This API is developed to manage the produc
 - **Comprehensive Error Handling**: Return appropriate HTTP statuses and messages for different scenarios.
 - **API Documentation**: Detailed API specification using Swagger/OpenAPI.
 
+## Task Overview
+The Senior Back-End Developer at Acme Corp is looking for an intern to help with the development of new API features. As part of your test assignment, you will need to complete the following tasks:
+
+1. Develop an API method to create a new product:
+    - Define a data model for a product, including fields such as name, description, price, category, and so on.
+    - Create an API method (POST /products) that accepts a JSON object with product data and saves it to the database.
+    - Return a JSON object with information about the created product.
+2. Develop an API method to get a list of products:
+    - Create an API method (GET /products) that returns a list of all products from the database.
+    - Add the ability to filter products by category (use the GET /products?category= parameter).
+    - Add the ability to sort products by price (use the GET /products?sort=price parameter).
+3. Develop an API method to get information about a specific product:
+    - Create an API method (GET /products/:id) that takes a product ID and returns information about it.
+    - Handle a 404 error if the product with the specified ID is not found.
+
+## Requirements
+- Experience in developing with Python or Java (of your choice)
+- Knowledge of OOP
+- Knowledge of SQL
+- Experience working with APIs
+- Ability to write clean and readable code
+
 ## Technologies Used
 
 - Java
@@ -40,4 +62,5 @@ Welcome to the Acme Corp Backend API. This API is developed to manage the produc
 ## Video Demonstration
 
 Video demonstration of the API in action can be found [here](https://drive.google.com/file/d/1nC7e-JlS46T9RceEIUyO3mxOWGhHw41a/view?usp=sharing)
+
 Video record of all work can be found [here](https://drive.google.com/file/d/10TbbaoJcH1b19_LmDmj-FRMovoc4BcbH/view?usp=sharing)
